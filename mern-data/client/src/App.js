@@ -15,8 +15,8 @@ ReactDOM.render(
   <Router>
     <Navigation />
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/data" element={<Data />} />
+      <Route path="/" component={<Home />} />
+      <Route path="/data" component={<Data />} />
     </Routes>
     <Footer />
   </Router>,
