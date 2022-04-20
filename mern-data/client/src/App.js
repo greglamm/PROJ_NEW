@@ -4,7 +4,6 @@ import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navigation,
-  Footer,
   Home,
   Data,
 } from "./components";
@@ -17,7 +16,6 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/data" element={<Data />} />
         </Routes>
-      {/* <Footer /> */}
     </Router>
 );
 };

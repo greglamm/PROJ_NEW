@@ -8,10 +8,14 @@ const ListInfo = ({ infos, deleteInfo }) => {
           return (
             <li key={info._id} onClick={() => deleteInfo(info._id)}>
               {"NAME:"}
+              <br />
               {info.cust_name}
+              <br />
               {" "}
               {"EMAIL:"}
+              <br />
               {info.email}
+              <br />
             </li>
           );
         })

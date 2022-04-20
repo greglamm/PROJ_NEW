@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import Input from './Input';
+import ListInfo from './ListInfo';
 
 class Info extends Component {
   state = {
@@ -40,7 +40,7 @@ class Info extends Component {
 
     return (
       <div>
-        <Input getInfos={this.getInfos} />
+        <ListInfo infos={infos} deleteInfo={this.deleteInfo} />
       </div>
     );
   }
